@@ -1,0 +1,13 @@
+2026-10-30 23:17:14,707 INFO inmuebles Inicio de corrida departamentos_2020
+2026-10-30 23:17:15,634 INFO inmuebles.datos Limpieza: {'filas_originales': 156258, 'duplicados_exactos_eliminados': 205, 'precios_invalidos_eliminados': 0, 'superficie_invalidos_a_faltante': 18, 'ambientes_invalidos_a_faltante': 29, 'direcciones_faltantes_eliminadas': 0, 'barrios_faltantes': 10, 'filas_limpias': 156053, 'grupos_direccion': 36919}
+2026-10-30 23:17:15,635 WARNING inmuebles.datos Valores fuera de los límites declarados quedan como faltantes
+2026-10-30 23:17:15,772 INFO inmuebles.datos Separación: train=124576 test=31477 umbral_usd=235000.00
+2026-10-30 23:17:17,467 INFO inmuebles.modelos Entrenamiento base: 3 folds
+2026-10-30 23:17:19,337 INFO inmuebles.modelos base F1 CV=0.0000
+2026-10-30 23:17:19,338 INFO inmuebles.modelos Entrenamiento logistica: 3 folds
+2026-10-30 23:17:23,454 INFO inmuebles.modelos logistica F1 CV=0.7983
+2026-10-30 23:17:23,455 INFO inmuebles.modelos Entrenamiento random_forest: 3 folds
+2026-10-30 23:17:55,945 INFO inmuebles.modelos random_forest F1 CV=0.7915
+2026-10-30 23:17:55,946 INFO inmuebles.modelos Modelo elegido por CV antes de evaluar prueba: logistica
+2026-10-30 23:17:56,704 INFO inmuebles Guardando SQLite con datos limpios y transformación ajustada en train
+2026-10-30 23:17:58,556 INFO inmuebles Finalizó logistica en 43.9 segundos

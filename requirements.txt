@@ -1,0 +1,11 @@
+# Python 3.14.3: versiones usadas para ejecutar y verificar este proyecto.
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+matplotlib==3.10.8
+joblib==1.5.3
+nbformat==5.10.4
+nbclient==0.10.4
+nbconvert==7.17.0
+ipykernel==7.2.0
+papermill==2.7.0

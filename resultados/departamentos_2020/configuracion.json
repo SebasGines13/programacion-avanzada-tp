@@ -1,0 +1,29 @@
+{
+  "archivo": "datasets/departamentos_2020.csv",
+  "salida": "resultados",
+  "run_id": "departamentos_2020",
+  "cuantil": 0.75,
+  "semilla": 42,
+  "folds": 3,
+  "umbral_usd": 235000.0,
+  "regla_clase": "precio_usd > umbral_usd",
+  "features": [
+    "superficie",
+    "ambientes",
+    "barrio"
+  ],
+  "modelo_elegido": "logistica",
+  "criterio_seleccion": "Mayor F1 medio en validación cruzada agrupada",
+  "parametros_modelo": {
+    "modelo__C": 10.0,
+    "modelo__class_weight": "balanced"
+  },
+  "versiones": {
+    "pandas": "3.0.2",
+    "numpy": "2.4.4",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3"
+  },
+  "sha256_dataset": "44b87373b216236c2465202566512db44cc9789f92466a2fcdb3049de27d12cb"
+}
